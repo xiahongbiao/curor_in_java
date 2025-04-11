@@ -39,3 +39,12 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# 大文件和敏感信息
+DB/lilishop.sql
+**/application-*.yml
+**/application.yml
+**/bootstrap.yml
+**/application-*.properties
+**/application.properties
+**/bootstrap.properties
