@@ -50,7 +50,7 @@ public class DistributionBuyerController {
         distributionOrderSearchParams.setDistributionId(distributionService.getDistribution().getId());
         return ResultUtil.data(distributionOrderService.getDistributionOrderPage(distributionOrderSearchParams));
     }
-
+    //获取当前会员的分销员信息
     @ApiOperation(value = "获取当前会员的分销员信息", notes = "可根据分销员信息查询待提现金额以及冻结金额等信息")
     @GetMapping
     public ResultMessage<Distribution> getDistribution() {
