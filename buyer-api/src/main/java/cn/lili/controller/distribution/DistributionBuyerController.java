@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.*;
 public class DistributionBuyerController {
 
     /**
-     * 分销员
+     * 分销员大笨蛋
      */
     @Autowired
     private DistributionService distributionService;
